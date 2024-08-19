@@ -40,7 +40,7 @@ ethics, laws, responsibilities for using these skills.
 
 Cyber Security CTF is a competition where players / teams compete using their computer to find flags
 in various challenges related to cyber security.  The flags could be a hidden secret that is hidden
-inside a digital picture.  The flag could something that game gives you for winning, or if are able
+inside a digital picture.  The flag could be from an online game for winning, or if are able
 to find a software vulnerability in the game that gives you access to the key through exploitation
 of a bug.
 
