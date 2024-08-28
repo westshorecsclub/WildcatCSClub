@@ -53,7 +53,7 @@ willing to engage, increased self-learning, and hopefully having fun.
 [![How the Best Hackers Learn Their Craft](sponsors/How_Hackers_Learn_YT_Thumb.png)](https://www.youtube.com/watch?v=6vj96QetfTg)
 
 ## Sample challenges from prior year CTFs
-[Prior year challenges (with sample writeups)](past_challenges/year_2022_2023) are available. This is only a subset
+[Prior year challenges (with sample writeups)](past_challenges) are available. This is only a subset
 of the 50 or so challenges the we worked on over the year.
 
 [Slides from this year and prior years](slides/readme.md) are also available.
