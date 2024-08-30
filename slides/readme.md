@@ -1,3 +1,10 @@
+# 2024 - 2025 School Year Presentations
+
+|  Subject                                 |    PDF                                            | Google Slides Web Link                                                                                                                                                                    |
+|------------------------------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Level 0x00                               | [PDF](Y24/Level_0x00.pdf)                         | [Google Slides](https://docs.google.com/presentation/d/1BZ18ok8VyRz4-jbClgKNG6OfZEGVqIQB0KDi1oOesF0/pub?start=false&loop=false&delayms=60000)                                             |
+
+
 # 2023 - 2024 School Year Presentations
 
 |  Subject                                 |    PDF                                            | Google Slides Web Link                                                                                                                                                                    |
