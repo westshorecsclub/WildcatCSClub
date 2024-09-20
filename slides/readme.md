@@ -4,6 +4,8 @@
 |------------------------------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Level 0x00                               | [PDF](Y24/Level_0x00.pdf)                         | [Google Slides](https://docs.google.com/presentation/d/1BZ18ok8VyRz4-jbClgKNG6OfZEGVqIQB0KDi1oOesF0/pub?start=false&loop=false&delayms=60000)                                             |
 | Level 0x01 - Shell Basics                | [PDF](Y24/Level_0x01-Shell_Basics.pdf)            | [Google Slides](https://docs.google.com/presentation/d/1u_RKcdP0F2xIakve33yRLGwgkrOqRe3o5eydZA3xiJM/pub?start=true&loop=false&delayms=60000)                                              |
+| Level 0x02 - Files and Processes         | [PDF](Y24/https://www.bunniestudios.com/)         | [Google Slides](https://docs.google.com/presentation/d/1rAFoeB_LiNAkQIkksRrF2_M3bAzH1zviqjsGvBYbffw/pub?start=true&loop=false&delayms=60000)                                              |
+
 
 # 2023 - 2024 School Year Presentations
 

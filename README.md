@@ -3,6 +3,15 @@
 Repository for artifacts for helping the CS Club (formerly Cyber Security Club),
 now Computer Science Club at Westshore Jr/Sr High School in Melbourne, FL.
 
+Current CTF page:  [Wildcat CTF](https://ctf.mwales.net)
+
+New players, please read [CTF Player Guide](https://docs.google.com/presentation/d/1ox3celA71AxI8DO3MZhVbPA8yQwh9y9cItQmRyDjUbI/pub?start=false&loop=false&delayms=15000)
+
+CTF Spoiler-free writeups at the same place.  Just use http:// instead of https, 
+and add :7000 to the end of the URL to get the writups.
+
+Club presentations:  [Presentations](slides)
+
 # About this project / club #
 
 I've been mentoring this club for 3 years with a few different teachers from
