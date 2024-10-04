@@ -1,0 +1,45 @@
+NUM_SESSIONS,41
+MIN_STUDENTS,5
+MAX_STUDENTS,20
+ID, Subject, Teacher, Presenter
+1, [Women in Electrical Engineering], Huxley R, Presenter 1
+2, [Why You need a resume], Ellsworth G, Presenter 2
+3, [The Role of Local Government in Everyday Living], Thorne O, Presenter 3
+4, [Architecture - designing buildings big & small], Cavendish C, Presenter 4
+5, [Career & Educational opportunities in the Air Force], Ormsby A, Presenter 5
+6, [Career Paths for the Orthodontist], Carrington G, Presenter 6
+7, [Personalities & Career Explorations], Pendleton R, Presenter 7
+8, [Finanical Literacy for Students], Northcott E, Presenter 8
+9, [Nursing-the Most Versatile and Rewarding Career], Caldwell J, Presenter 9
+10, [Treating Cancer with Radiation], Marlowe N, Presenter 10
+11, [Why Everyone Needs A Good Lawyer and How to Become One], Yardley N, Presenter 11
+12, [Career in the Legal Profession], Montgomery Z, Presenter 12
+13, [Planes Trains and Automobiles - Mechanical Engineering in many sectors], Caldwell O, Presenter 13
+14, [Follow the Money to Stop the Crime], Ellsworth A, Presenter 14
+15, [Space Based Intelligence Software], Danforth C, Presenter 15
+16, [Career in Government], Radcliffe C, Presenter 16
+17, [Careers in Chemistry at Kennedy Space Center], Winslow D, Presenter 17
+18, [Pathways to Success in the Pharmaceutical Industry], Westcott Z, Presenter 18
+19, [A Career in Construction Management and Project Scheduling], Sinclair E, Presenter 19
+20, [Becoming a Sheriff], Yardley E, Presenter 20
+21, [School Board Member/SLP], Ellsworth M, Presenter 21
+22, [Exploring IT Careers], Whitmore M, Presenter 22
+23, [Engineering: a career with many changes], Balfour E, Presenter 23
+24, [Science behind Police Response to Traffic Crashes], Northcott A, Presenter 24
+25, [(CANCELLED) A career in educational administration], Greystone W, Presenter 25
+26, [Electrical Engineering], Vance M, Presenter 26
+27, [Careers in Wildlife-Natural Resources and Citizen Protection], Ormsby A, Presenter 27
+28, [What it is like to work with animals at the Brevard Zoo.], Kensington S, Presenter 28
+29, [Crime Scene Investigation], Marlowe S, Presenter 29
+30, [The Entertainment Business], Kingsley H, Presenter 30
+31, [Being a Pilot], Balfour H, Presenter 31
+32, [Careers in Cybersecurity], Devereaux M, Presenter 32
+33, [Firefighter/Paramedic Career and or venue owner], Kingsley A, Presenter 33
+34, [Practicing Now to Be an Author Later], Fairfax E, Presenter 34
+35, [Being a Chiropractor], Huxley L, Presenter 35
+36, [A career in medicine], Whitmore J, Presenter 36
+37, [Not Just a nurse], Sinclair A, Presenter 37
+38, [Sparking Innovation & Making an Impact], Langley N, Presenter 38
+39, [Becoming a Melbourne Police Officer], Kingsley L, Presenter 39
+40, [Architecture – design of buildings and places and the teams that make it happen], Wainwright C, Presenter 40
+41, [Cybersecurity and hacking], Kingsley J, Presenter 41

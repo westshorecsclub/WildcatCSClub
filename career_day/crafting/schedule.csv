@@ -1,0 +1,6 @@
+NUM_STUDENTS,600,,,,,,,,,,,,
+ FIRST_NAME, LAST_NAME, HOMEROOM, FIRST_PERIOD, ID, GRADE,SESS_1_ID,SESS_1_ROOM,SESS_2_ID,SESS_2_ROOM,SESS_3_ID,SESS_3_ROOM,SESS_4_ID,SESS_4_ROOM
+ Ethan, Smith, Huxley R, Smith,129015,7,4, Cavendish C,7, Pendleton R,5, Winslow D,9, Vance M
+ Harper, Harris, Wainwright C, Harris,195716,8,3, Ellsworth G,6, Carrington G,8, Westcott Z,4, Ormsby A
+ Scarlett, Hall, Wainwright C, Hall,154774,9,4, Kingsley A,1, Whitmore J,7, Sinclair E,10, Kensington S
+ Evelyn, Hall, Devereaux M, Hall,189373,10,8, Fairfax E,5, Sinclair A,10, Yardley E,6, Marlowe S
