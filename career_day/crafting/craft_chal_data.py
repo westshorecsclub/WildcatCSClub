@@ -52,7 +52,7 @@ class Student:
 		retval += f"{self.first_name}, "
 		retval += f"{self.last_name}, "
 		retval += f"{self.hr.shortName()}, "
-		retval += f"{self.last_name}, "
+		retval += f"{self.first_period.shortName()}, "
 		retval += f"{self.id}, "
 		retval += f"{self.grade}, "
 
