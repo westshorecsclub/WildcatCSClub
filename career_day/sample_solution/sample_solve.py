@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+# This sample solution justs randomly places students in random sessions.  So
+# it shouldn't score well, but likely will create a valid solution since the
+# randomness should distribute the students pretty evenly
+
+# I resued the code from the crafting script to start this script
+
 import random
 import time
 
@@ -19,7 +25,7 @@ class Student:
 	def __init__(self, student_id, first, last, teacherHr, teacherFirst, grade, timestamp):
 		self.first_name = first
 		self.last_name = last
-		self.id = random.randint(100000, 200000)
+		self.id = student_id
 		self.hr = teacherHr
 		self.first_period = teacherFirst
 		self.grade = grade
