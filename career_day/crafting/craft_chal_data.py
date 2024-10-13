@@ -35,7 +35,7 @@ def generate_new_student_id():
 		random_id = random.randint(100000, 200000)
 		if (random_id not in unique_student_ids):
 			unique_student_ids.add(random_id)
-			return unique_student_ids
+			return random_id
 
 class Student:
 	def __init__(self, first, last, teacherHr, teacherFirst, grade, timestamp):
