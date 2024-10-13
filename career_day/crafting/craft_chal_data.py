@@ -29,11 +29,19 @@ class Teacher:
 	def __str__(self):
 		return f"({self.shortName()}, room={self.location})"
 
+unique_student_ids = set()
+def generate_new_student_id():
+	while(True):
+		random_id = random.randint(100000, 200000)
+		if (random_id not in unique_student_ids):
+			unique_student_ids.add(random_id)
+			return unique_student_ids
+
 class Student:
 	def __init__(self, first, last, teacherHr, teacherFirst, grade, timestamp):
 		self.first_name = first
 		self.last_name = last
-		self.id = random.randint(100000, 200000)
+		self.id = generate_new_student_id()
 		self.hr = teacherHr
 		self.first_period = teacherFirst
 		self.grade = grade
