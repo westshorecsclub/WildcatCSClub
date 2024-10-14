@@ -130,6 +130,13 @@ class Student:
 		print(f"Attending: {attend_list}")
 
 
+	def write_student_schedule(self, f):
+		f.write(f"{self.last_name}, {self.first_name}  ID={self.id}      1st Period Teacher={self.first_period}\n")
+		f.write(f"SESS, SUBJECT, TEACHER / ROOM, PRESENTER\n")
+		for i in range(NUM_PERIODS):
+			f.write(f"{i + 1}, {self.selections_attending[i].subject}, {self.selections_attending[i].teacher}, {self.selections_attending[i].presenter}\n")
+		f.write("\n\n")
+
 class Session:
 	def __init__(self, id, subject, teacher, presenter):
 		self.id = id
@@ -170,6 +177,17 @@ class Session:
 	
 	def get_student_list_period(self, period):
 		return self.attendees[period]
+	
+	def write_student_report(self, f):
+		f.write(f"SUBJECT, {self.subject}\n")
+		f.write(f"{self.teacher} by {self.presenter}\n")
+		f.write("PERIOD, STUDENT LAST, STUDENT FIRST\n")
+		for i in range(len(self.attendees)):
+			for s in self.attendees[i]:
+				f.write(f"{i+1}, {s.last_name}, {s.first_name}\n")
+		f.write("\n\n")
+
+
 
 def writeSessionFile(filename, sessionList, minNum, maxNum):
 	f = open(filename, "w")
@@ -219,7 +237,7 @@ def readSessionFile(filename):
 			continue
 
 		cur_id = int(cur_line_parts[0])
-		cur_sess = Session(cur_id, cur_line_parts[0], cur_line_parts[2], cur_line_parts[2])
+		cur_sess = Session(cur_id, cur_line_parts[1], cur_line_parts[2], cur_line_parts[3])
 
 		sess_list[cur_id] = cur_sess
 
@@ -382,6 +400,35 @@ def evaluateStudents(studentList):
 	
 	return failed_evaluation
 
+def gen_first_period_reports(students, sess_dict):
+	# Create a list of all the first period teachers
+	f = open("first_period_reports.csv", "w")
+	
+	fp_teachers = set()
+	for s in students:
+		fp_teachers.add(s.first_period)
+
+	fp_list = list(fp_teachers)
+	fp_list.sort()
+
+	for fp in fp_list:
+		for s in students:
+			if (fp == s.first_period):
+				s.write_student_schedule(f)
+
+	f.close()
+				
+def gen_session_reports(sess_dict):
+	f = open("session_reports.csv", "w")
+
+	for id in sess_dict.keys():
+		sess = sess_dict[id]
+
+		sess.write_student_report(f)
+
+	f.close()
+
+		
 
 def main():
 	(num_sessions, min_students, max_students, sess_dict) = readSessionFile("sessions.csv")
@@ -432,6 +479,9 @@ def main():
 	for g in sum_score_per_grade_level.keys():
 		score = sum_score_per_grade_level[g] / students_per_grade_level[g]
 		print(f"Average score {g}th grade: {score}")
+
+	gen_first_period_reports(student_data, sess_dict)
+	gen_session_reports(sess_dict)
 
 if __name__ == "__main__":
 	main()
