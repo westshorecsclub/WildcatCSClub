@@ -350,7 +350,7 @@ def parseStudentSelectionLine(studentList: List[Student], selectionLine: str) ->
 		return None
 
 	timeObj = datetime.datetime.strptime(lineParts[0], "%m/%d/%Y %H:%M:%S")
-	timestamp = timeObj.timestamp()	
+	timestamp = int(timeObj.timestamp())
 	firstName = lineParts[1].strip().upper()
 	#lastName = lineParts[2].strip()
 	lastName = obfuscate_last_names(lineParts[2].strip())
