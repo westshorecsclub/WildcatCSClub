@@ -15,6 +15,7 @@ import random
 import time
 
 NUM_PERIODS = 4
+DETAILED_REPORT_OUTPUT = True
 
 def read_file_into_list(filename):
 	f = open(filename, "r")
@@ -84,6 +85,8 @@ class Student:
 	
 	def isAttending(self, session_id):
 		for s in self.selections_attending:
+			if (s == None):
+				continue
 			if (session_id == s.id):
 				return True
 			
@@ -132,10 +135,46 @@ class Student:
 
 	def write_student_schedule(self, f):
 		f.write(f"{self.last_name}, {self.first_name}  ID={self.id}      1st Period Teacher={self.first_period}\n")
-		f.write(f"SESS, SUBJECT, TEACHER / ROOM, PRESENTER\n")
+		f.write(f"SESS, SUBJECT, TEACHER / ROOM, PRESENTER")
+
+		if (DETAILED_REPORT_OUTPUT):
+			f.write(", PRIORITY\n")
+		else:
+			f.write("\n")
+
 		for i in range(NUM_PERIODS):
-			f.write(f"{i + 1}, {self.selections_attending[i].subject}, {self.selections_attending[i].teacher}, {self.selections_attending[i].presenter}\n")
+			cur_sel = self.selections_attending[i]
+			if (cur_sel == None):
+				f.write(f"{i + 1}, N/A, N/A, N/A\n")
+			else:
+				f.write(f"{i + 1}, {self.selections_attending[i].subject}, {self.selections_attending[i].teacher}, {self.selections_attending[i].presenter}")
+
+				if (DETAILED_REPORT_OUTPUT):
+					f.write(f", {self.sessionPriorityLookup(cur_sel.id)}\n")
+				else:
+					f.write("\n")
 		f.write("\n\n")
+
+	def sessionPriorityLookup(self, sid):
+		selPri = 1
+		retPri = None
+		for curId in self.selections:
+			if (curId == sid):
+				retPri = selPri
+			selPri += 1
+		
+		if (retPri == None):
+			return "N/A"
+		
+		if (retPri == 1):
+			return "1st"
+		elif (retPri == 2):
+			return "2nd"
+		elif (retPri == 3):
+			return "3rd"
+		else:
+			return str(retPri) + "th"
+
 
 class Session:
 	def __init__(self, id, subject, teacher, presenter):
@@ -181,10 +220,27 @@ class Session:
 	def write_student_report(self, f):
 		f.write(f"SUBJECT, {self.subject}\n")
 		f.write(f"{self.teacher} by {self.presenter}\n")
-		f.write("PERIOD, STUDENT LAST, STUDENT FIRST\n")
+		f.write("PERIOD, STUDENT LAST, STUDENT FIRST")
+
+		if (DETAILED_REPORT_OUTPUT):
+			f.write(", SELECTION_LEVEL")
+		
+		f.write(", FOLLOWING_SESSION, FOLLOWING_SESS_TEADCHER\n")
+
 		for i in range(len(self.attendees)):
 			for s in self.attendees[i]:
-				f.write(f"{i+1}, {s.last_name}, {s.first_name}\n")
+				f.write(f"{i+1}, {s.last_name}, {s.first_name}")
+
+				if (DETAILED_REPORT_OUTPUT):
+					f.write(f",{s.sessionPriorityLookup(self.id)}")
+	
+				if (i == 3):
+					# Last session
+					f.write(",N/A, N/A\n")
+				else:
+					next_sess = s.selections_attending[i+1]
+					f.write(f",{next_sess.subject}, {next_sess.teacher}\n")
+
 		f.write("\n\n")
 
 
@@ -255,7 +311,7 @@ def readStudentFile(filename):
 	for i in range(num_students):
 		cur_line = f.readline().strip()
 		cur_line_parts = cur_line.split(",")
-		if (len(cur_line_parts) < 14):
+		if (len(cur_line_parts) < 8):
 			print(f"Error reading line {i+5}: {cur_line}")
 			continue
 
@@ -268,8 +324,8 @@ def readStudentFile(filename):
 		grade = int(cur_line_parts[6])
 
 		selections = []
-		for choice_num in range(7):
-			selections.append(int(cur_line_parts[7 + choice_num]))
+		for sid in cur_line_parts[7:]:
+			selections.append(int(sid))
 
 		cur_student = Student(student_id, first, last, hr_teach, first_teach, grade, timestamp)
 		cur_student.setSelectionsWanted(selections)
