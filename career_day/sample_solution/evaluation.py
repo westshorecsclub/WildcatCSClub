@@ -367,7 +367,7 @@ def readSelectionFile(filename, student_data, sess_dict):
 		cur_line = f.readline().strip()
 		line_parts = cur_line.split(",")
 
-		if (len(line_parts) < 14):
+		if (len(line_parts) < 7):
 			print(f"Not enough columns {len(line_parts)} in line: {cur_line}")
 			return None
 
