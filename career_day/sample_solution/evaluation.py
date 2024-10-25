@@ -134,7 +134,7 @@ class Student:
 
 
 	def write_student_schedule(self, f):
-		f.write(f"{self.last_name}, {self.first_name}  ID={self.id}      1st Period Teacher={self.first_period}\n")
+		f.write(f"{self.last_name}, {self.first_name}  ID={self.id}      Homeroom Teacher={self.hr}\n")
 		f.write(f"SESS, SUBJECT, TEACHER / ROOM, PRESENTER")
 
 		if (DETAILED_REPORT_OUTPUT):
@@ -456,20 +456,20 @@ def evaluateStudents(studentList):
 	
 	return failed_evaluation
 
-def gen_first_period_reports(students, sess_dict):
+def gen_homeroom_reports(students, sess_dict):
 	# Create a list of all the first period teachers
-	f = open("first_period_reports.csv", "w")
+	f = open("homeroom_reports.csv", "w")
 	
 	fp_teachers = set()
 	for s in students:
-		fp_teachers.add(s.first_period)
+		fp_teachers.add(s.hr)
 
 	fp_list = list(fp_teachers)
 	fp_list.sort()
 
 	for fp in fp_list:
 		for s in students:
-			if (fp == s.first_period):
+			if (fp == s.hr):
 				s.write_student_schedule(f)
 
 	f.close()
@@ -536,7 +536,7 @@ def main():
 		score = sum_score_per_grade_level[g] / students_per_grade_level[g]
 		print(f"Average score {g}th grade: {score}")
 
-	gen_first_period_reports(student_data, sess_dict)
+	gen_homeroom_reports(student_data, sess_dict)
 	gen_session_reports(sess_dict)
 
 if __name__ == "__main__":

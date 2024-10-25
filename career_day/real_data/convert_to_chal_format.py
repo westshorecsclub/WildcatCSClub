@@ -331,7 +331,7 @@ def teacher_filter(name: str) -> str:
 	if ("MCCOR" in name):
 		return "MCCORMICK"
 
-	if ("REHAB" == name):
+	if ("REHAB" == name) or ("RAHAB" == name):
 		return "RAHEB"
 
 	if ("MARTIN" in name):
@@ -339,27 +339,44 @@ def teacher_filter(name: str) -> str:
 	
 	if ("KIMBERLY" in name):
 		return "KIMBERLY"
+	
+	if (name.startswith("VAU")):
+		return "VAUTIER"
 
 	return name
 
+oldTimestampValue = None
 def parseStudentSelectionLine(studentList: List[Student], selectionLine: str) -> Student:
+	global oldTimestampValue
 	lineParts = smart_split(selectionLine)
 
 	if (len(lineParts) < 6):
 		print(f"Ignoring line (not enough cells): {selectionLine}")
 		return None
 
-	timeObj = datetime.datetime.strptime(lineParts[0], "%m/%d/%Y %H:%M:%S")
-	timestamp = int(timeObj.timestamp())
+	if (lineParts[0] == ""):
+		timestamp = oldTimestampValue
+	else:
+		timeObj = datetime.datetime.strptime(lineParts[0], "%m/%d/%Y %H:%M:%S")
+		timestamp = int(timeObj.timestamp())
+		oldTimestampValue = timestamp
+
 	firstName = lineParts[1].strip().upper()
 	#lastName = lineParts[2].strip()
 	lastName = obfuscate_last_names(lineParts[2].strip())
-	firstPeriod = lineParts[3].strip()
+	hrTeacher = lineParts[3].strip()
 
-	teacher = teacher_filter(firstPeriod)
+	teacher = teacher_filter(hrTeacher)
 	#print(f"Converted {firstPeriod} to {teacher}")
 
-	grade = int(lineParts[4])
+	if (lineParts[4] == ""):
+		# Not sure why so many kids now don't have a grade, but it's likely the first digits of their first name
+		if (firstName[0] == '1'):
+			grade = int(firstName[0:1])
+		else:
+			grade = int(firstName[0])
+	else:
+		grade = int(lineParts[4])
 
 	#print(f"Name: {firstPeriod}")
 
@@ -381,7 +398,11 @@ def parseStudentSelectionLine(studentList: List[Student], selectionLine: str) ->
 				priVal = int(lineParts[i].split(",")[0])
 			else:
 				priVal = int(lineParts[i])
-		
+
+			# Somehow one of the students had a really high number in this field
+			if (priVal > 7):
+				priVal = 7
+
 			selections[priVal - 1] = sid
 
 	# So now we have a student, look and see if they are already in the list...
@@ -391,7 +412,7 @@ def parseStudentSelectionLine(studentList: List[Student], selectionLine: str) ->
 			studentList.remove(s)
 
 	# Add the student to the student list
-	stud = Student(generate_new_student_id(), firstName, lastName, "N/A", teacher, grade, timestamp)
+	stud = Student(generate_new_student_id(), firstName, lastName,teacher, "N/A", grade, timestamp)
 	stud.setSelectionsWanted(selections)
 	studentList.append(stud)
 	return stud
@@ -424,7 +445,8 @@ def main():
 		sess = Session(id, subj, teacher, presenter)
 		sessList.append(sess)
 
-	writeSessionFile("sessions.csv", sessList, 15, 25)
+	# Don't overwrite sessions.csv file anymore
+	#writeSessionFile("sessions.csv", sessList, 15, 25)
 
 	teacherCounts = dict()
 
@@ -438,9 +460,9 @@ def main():
 		if (s == None):
 			continue
 
-		tc = teacherCounts.get(s.first_period, 0) 
+		tc = teacherCounts.get(s.hr, 0) 
 		tc += 1
-		teacherCounts[s.first_period] = tc
+		teacherCounts[s.hr] = tc
 
 	# Hack: Make worst priority class the high school only classes at random
 	for s in studentList:
