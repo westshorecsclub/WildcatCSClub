@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-# This sample solution justs randomly places students in random sessions.  So
-# it shouldn't score well, but likely will create a valid solution since the
-# randomness should distribute the students pretty evenly
+# Better solution pushes kids into sessions based on their selections
+# It may also downgrade them into lower pri or sessions they didn't
+# pick if min students per session goals aren't met
 
 # I resued the code from the crafting script to start this script
 
@@ -308,7 +308,7 @@ def readStudentFile(filename, sess_dict):
 	for i in range(num_students):
 		cur_line = f.readline().strip()
 		cur_line_parts = cur_line.split(",")
-		if (len(cur_line_parts) < 14):
+		if (len(cur_line_parts) < 7):
 			print(f"Error reading line {i+5}: {cur_line}")
 			continue
 
@@ -321,8 +321,8 @@ def readStudentFile(filename, sess_dict):
 		grade = int(cur_line_parts[6])
 
 		selections = []
-		for choice_num in range(7):
-			cur_sel_id = int(cur_line_parts[7 + choice_num])
+		for cur_sel_text in cur_line_parts[7:]:
+			cur_sel_id = int(cur_sel_text)
 
 			selections.append(sess_dict[cur_sel_id])
 
@@ -465,6 +465,7 @@ def main():
 							print(f"We filled enough empty seats in {cur_sess.subject}")
 							continue
 
+	downgrades_clear = 0
 	infinite_loop_limit = 200
 	while(len(sessions_needing_more_students) > 0):
 		# Downgrade any student not downgraded already
@@ -473,7 +474,9 @@ def main():
 			# not finding enough students to downgrade, clear the list
 			students_downgraded.clear()
 			print("Looped so many times, all students elgible for forcded downgrade again")
-
+			downgrades_clear += 1
+			if (downgrades_clear > 10):
+				break
 
 		for s in sorted_students:
 			# break out of this loop if sessions fill up enough
@@ -484,9 +487,9 @@ def main():
 			if (s in students_downgraded):
 				# Don't downgrade a student twice
 				continue
-			if (s.grade > 10):
-				# Don't downgrade juniors or seniors
-				continue
+			#if (s.grade > 10):
+			#	# Don't downgrade juniors or seniors
+			#	continue
 
 			# Make sure student isn't already attending
 			if (s.isAttending(cur_sess)):
@@ -517,6 +520,10 @@ def main():
 
 
 	print("DONE DOWNGRADING")
+
+	print("Sessions not filled properly")
+	for s in sessions_needing_more_students:
+		print(s)
 
 	writeStudentSelectionFile("output.csv", student_data)
 
