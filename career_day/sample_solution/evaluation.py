@@ -289,7 +289,7 @@ def readSessionFile(filename):
 		cur_line = f.readline().strip()
 		cur_line_parts = cur_line.split(",")
 		if (len(cur_line_parts) < 4):
-			print(f"Error reading line {i+5}: {cur_line}")
+			print(f"Error4 reading line {i+5}: {cur_line}")
 			continue
 
 		cur_id = int(cur_line_parts[0])
@@ -311,8 +311,8 @@ def readStudentFile(filename):
 	for i in range(num_students):
 		cur_line = f.readline().strip()
 		cur_line_parts = cur_line.split(",")
-		if (len(cur_line_parts) < 8):
-			print(f"Error reading line {i+5}: {cur_line}")
+		if (len(cur_line_parts) < 7):
+			print(f"Error7 reading line {i+5}: {cur_line}")
 			continue
 
 		timestamp = int(cur_line_parts[0])
@@ -324,8 +324,9 @@ def readStudentFile(filename):
 		grade = int(cur_line_parts[6])
 
 		selections = []
-		for sid in cur_line_parts[7:]:
-			selections.append(int(sid))
+		if (len(cur_line_parts) >= 8):
+			for sid in cur_line_parts[7:]:
+				selections.append(int(sid))
 
 		cur_student = Student(student_id, first, last, hr_teach, first_teach, grade, timestamp)
 		cur_student.setSelectionsWanted(selections)
