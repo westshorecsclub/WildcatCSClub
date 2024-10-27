@@ -134,7 +134,9 @@ class Student:
 
 
 	def write_student_schedule(self, f):
-		f.write(f"{self.last_name}, {self.first_name}  ID={self.id}      Homeroom Teacher={self.hr}\n")
+		# Commented out since we don't have student numbers
+		#f.write(f"{self.last_name}, {self.first_name}  ID={self.id}      Homeroom Teacher={self.hr}\n")
+		f.write(f"{self.last_name}, {self.first_name}      Homeroom Teacher={self.hr}\n")
 		f.write(f"SESS, SUBJECT, TEACHER / ROOM, PRESENTER")
 
 		if (DETAILED_REPORT_OUTPUT):
@@ -225,7 +227,7 @@ class Session:
 		if (DETAILED_REPORT_OUTPUT):
 			f.write(", SELECTION_LEVEL")
 		
-		f.write(", FOLLOWING_SESSION, FOLLOWING_SESS_TEADCHER\n")
+		f.write(", FOLLOWING_SESSION, FOLLOWING_SESS_TEACHER\n")
 
 		for i in range(len(self.attendees)):
 			for s in self.attendees[i]:
@@ -390,7 +392,9 @@ def readSelectionFile(filename, student_data, sess_dict):
 		# Find the student in the student list
 		student_obj = None
 		for s in student_data:
-			if ( (student_id == s.id) and (first_name == s.first_name) and (last_name == s.last_name) ):
+			# First names are now IDs
+			# if ( (student_id == s.id) and (first_name == s.first_name) and (last_name == s.last_name) ):
+			if (first_name == s.first_name):
 				student_obj = s
 				break
 

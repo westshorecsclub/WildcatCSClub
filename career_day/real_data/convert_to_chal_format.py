@@ -103,6 +103,24 @@ class Student:
 		retval = retval [:-2]
 		return retval
 
+	def add_random_selection(self, maxSessId: int):
+		while(True):
+			randSess = random.randint(1,maxSessId)
+			if (randSess not in self.selections):
+				self.selections.append(randSess)
+				return
+
+	def randomize_missing_selections(self, maxSessId: int):
+		# hack for algroithms that didn't like no selections
+		
+		if (len(self.selections) < 7):
+			self.add_randome_selection()
+
+		for i in range(len(self.selections)):
+			sessId = self.selections[i]
+			if (sessId == None):
+				self.selections.pop(i)
+				self.add_random_selection(maxSessId)
 
 
 class Session:
@@ -378,6 +396,9 @@ def parseStudentSelectionLine(studentList: List[Student], selectionLine: str) ->
 	else:
 		grade = int(lineParts[4])
 
+	# Some programs broke when names were just numbers
+	#firstName = "ID#" + firstName
+	
 	#print(f"Name: {firstPeriod}")
 
 
@@ -507,6 +528,9 @@ def main():
 
 
 	print(f"Read in data for {len(studentList)} students")
+
+	#for s in studentList:
+	#	s.randomize_missing_selections(44)
 
 	writeStudentFile("students.csv", studentList)
 
