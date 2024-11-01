@@ -7,6 +7,8 @@
 | Level 0x02 - Files and Processes         | [PDF](Y24/Level_0x02_Files_and_Processes.pdf)     | [Google Slides](https://docs.google.com/presentation/d/1rAFoeB_LiNAkQIkksRrF2_M3bAzH1zviqjsGvBYbffw/pub?start=true&loop=false&delayms=60000)                                              |
 | Level 0x03 - Career Day                  | [PDF](Y24/Level_0x03_Career_Day.pdf)              | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vSHkIpTHvHOXMH5aToxz4hapUPRvbSGxSS_VhSAKXcDO4B-a_Ekqwz7VbOZeObsL3u2pnE265qZCjsY/pub?start=false&loop=false&delayms=60000) |
 | Level 0x04 - Microcontrollers            | [PDF](Y24/Level_0x04_Microcontrollers.pdf)        | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vSOuLqx3fSpC3_DboB29KqgvQ_j81Pedb0vf9NhF7eEVz7-s21_jT2InRlwdeGPGbvCx83iFEc7nNae/pub?start=false&loop=false&delayms=60000) |
+| Career Day - Video Game Hacking          | [PDF](Y24/Video_Game_Hacking.pdf)                 | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vQ6HKXX1Tlp7XGSYaBRrWyJhrkLBW9T1SB1LPFnRYA7uiC4Tv-B5V8boTBGUWpeOiSidregGN47D_hE/pub?start=true&loop=false&delayms=60000)  |
+| Career Day - Video Game Trivia           | [ODP](Y24/Video_Game_Trivia.odp)                  | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vS3Aq47e64LqjZY7AZaubLzECQbHISy0g4h10ojVMPA7PJOunP-8Cj0id7xcbqna6vTOhzkQgPD7es0/pub?start=true&loop=true&delayms=15000)   |
 
 # 2023 - 2024 School Year Presentations
 
