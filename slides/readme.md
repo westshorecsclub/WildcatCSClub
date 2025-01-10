@@ -12,6 +12,8 @@
 | Level 0x05 - SCM                         | [PDF](Y24/Level_0x05_SCM.pdf)                     | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vReflDePqPzuBvjIs12KCB8LyFN1_vo_aENwnBaZnVV8uahDDJCqfTt08pHX0oz_Ngmkr93l6e_C_2E/pub?start=true&loop=false&delayms=60000)  |
 | Level 0x06 - Binary Ninja                | [PDF](Y24/Level_0x06_Binary_Ninja.pdf)            | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vTGtOTXMoTj0Hr1BXkdY8zVclyhD7ylpEFLtItXeFDjcr9olLNEggf6IccqT9yn89YTt_isbZHF9cBv/pub?start=true&loop=false&delayms=60000)  |
 | Level 0x07 - Simple Encryption           | [PDF](Y24/Level_0x07_Simple_Encryption.pdf)       | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vStiZTJs-PaM2Dr3acQt0jIp7Dtf-JVopAqzsD6PpWtC-7JBd7qdzyEhcICM-LAycftYySfp_mAZ-9x/pub?start=false&loop=false&delayms=60000) |
+| Level 0x08 - Format Strings              | [PDF](Y24/Level_0x08_Format_Strings.pdf)          | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vQNFFcYL9b5tsIimK4VfxFW2VsoPOndhYZtA6dwFlnO10xOxZCPqp989HUQfz_TCHnD_TLpTZaHWBp5/pub?start=false&loop=false&delayms=60000) |
+
 # 2023 - 2024 School Year Presentations
 
 |  Subject                                 |    PDF                                            | Google Slides Web Link                                                                                                                                                                    |
