@@ -16,6 +16,7 @@
 | Level 0x09 - Hacking Laws                | [PDF](Y24/Level_0x09_Hacking_Laws.pdf)            | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vSrFaSWWS9QkICN3xdDO7oMQB-RLQUGLbKvfUEFaxDaKP3TUDKO1pyqADTKKtii2Ym5XO-Jy0oNCslx/pub?start=false&loop=false&delayms=60000) |
 | Level 0x0a - Info Leakage                | [PDF](Y24/Level_0x0a_Info_Leakage.pdf)            | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vSguZ2KtDWC27yBLVRO9vKyh2l6YCfOhEdjFHT17kgV8LDIZwMzTTpzzKyuLtX8-dSVfEioALXZ0iMT/pub?start=false&loop=false&delayms=60000) |
 | Level 0x0b - Programming Tips            | [PDF](Y24/Level_0x0b_Programming_Tips.pdf)        | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRgiYXGEVZ9IWbDwo_CYoAomz_-lbi6Lih0Q9GClbCgRh8_wiH3tWgZpe49reqzgsG9quq0EaYAWZFD/pub?start=false&loop=false&delayms=60000) |
+| Level 0x0c - Sam's CQ Tips               | [PDF](Y24/Level_0x0c_Sams_CQ_Tips.pdf)            |                                                                                                                                                                                           |
 
 # 2023 - 2024 School Year Presentations
 
