@@ -17,6 +17,7 @@
 | Level 0x0a - Info Leakage                | [PDF](Y24/Level_0x0a_Info_Leakage.pdf)            | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vSguZ2KtDWC27yBLVRO9vKyh2l6YCfOhEdjFHT17kgV8LDIZwMzTTpzzKyuLtX8-dSVfEioALXZ0iMT/pub?start=false&loop=false&delayms=60000) |
 | Level 0x0b - Programming Tips            | [PDF](Y24/Level_0x0b_Programming_Tips.pdf)        | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRgiYXGEVZ9IWbDwo_CYoAomz_-lbi6Lih0Q9GClbCgRh8_wiH3tWgZpe49reqzgsG9quq0EaYAWZFD/pub?start=false&loop=false&delayms=60000) |
 | Level 0x0c - Sam's CQ Tips               | [PDF](Y24/Level_0x0c_Sams_CQ_Tips.pdf)            |                                                                                                                                                                                           |
+| Level 0x0d - Cyber Quest                 | [PDF](Y24/Level_0x0d_Cyber_Quest.pdf)             | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vSRUg687brgYuo6yqUpOn1RP0n9fWrSMe0bDfhSfZCaYu6eXCRLi2uD87Tr1a0B3OAruJTOHDy6wEMm/pub?start=false&loop=false&delayms=60000) |
 
 # 2023 - 2024 School Year Presentations
 
