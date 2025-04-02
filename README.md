@@ -106,7 +106,7 @@ discounts and licenses, along with their time.
 
 [![Florida Tech](sponsors/fit.png)](https://www.fit.edu/)
 
-[![Raytheon CODEX](sponsors/raytheon_codex.png)](https://www.rtx.com/raytheon/what-we-do/cyber/who-we-are/codex)
+[![Raytheon CODEX](sponsors/raytheon_codex.png)](https://nightwing.com/business-units/codex/index.html)
 
 [![RII](sponsors/rii.png)](https://www.researchinnovations.com/)
 
