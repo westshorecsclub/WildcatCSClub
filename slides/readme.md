@@ -18,6 +18,7 @@
 | Level 0x0b - Programming Tips            | [PDF](Y24/Level_0x0b_Programming_Tips.pdf)        | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRgiYXGEVZ9IWbDwo_CYoAomz_-lbi6Lih0Q9GClbCgRh8_wiH3tWgZpe49reqzgsG9quq0EaYAWZFD/pub?start=false&loop=false&delayms=60000) |
 | Level 0x0c - Sam's CQ Tips               | [PDF](Y24/Level_0x0c_Sams_CQ_Tips.pdf)            |                                                                                                                                                                                           |
 | Level 0x0d - Cyber Quest                 | [PDF](Y24/Level_0x0d_Cyber_Quest.pdf)             | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vSRUg687brgYuo6yqUpOn1RP0n9fWrSMe0bDfhSfZCaYu6eXCRLi2uD87Tr1a0B3OAruJTOHDy6wEMm/pub?start=false&loop=false&delayms=60000) |
+| Level 0x0e - Quests Complete             | [PDF](Y24/Level_0x0e_Quests_Complete.pdf)         | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRrPThzlBrCAQyzn_jYlerTsgyL3RBoNzI8Xq7VCXs1WjEhzlIaEx1z2w-ocx5qbTumPBlGk2Fx6e4z/pub?start=false&loop=false&delayms=60000) |
 
 # 2023 - 2024 School Year Presentations
 
