@@ -1,3 +1,9 @@
+# 2025 - 2026 School Year Presentations
+
+|  Subject                                 |    PDF                                            | Google Slides Web Link                                                                                                                                                                    |
+|------------------------------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Level 0x00 - Hello Wildcats              | [PDF](Y25/Level_0x00-Hello_Wildcats.pdf)          | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vQffLFh3iGxIGkdG-Wd3BPMlGPNT21Osh0JIxIxij4aEhKHVILyM3l1ecfphtwBJVhjezEDlZ3keRJ8/pub?start=false&loop=false&delayms=60000) |
+
 # 2024 - 2025 School Year Presentations
 
 |  Subject                                 |    PDF                                            | Google Slides Web Link                                                                                                                                                                    |
