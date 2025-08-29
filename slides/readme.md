@@ -3,6 +3,7 @@
 |  Subject                                 |    PDF                                            | Google Slides Web Link                                                                                                                                                                    |
 |------------------------------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Level 0x00 - Hello Wildcats              | [PDF](Y25/Level_0x00-Hello_Wildcats.pdf)          | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vQffLFh3iGxIGkdG-Wd3BPMlGPNT21Osh0JIxIxij4aEhKHVILyM3l1ecfphtwBJVhjezEDlZ3keRJ8/pub?start=false&loop=false&delayms=60000) |
+| Level 0x01 - History                     | [PDF](Y25/Level_0x01-History.pdf)                 | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vTBE9DjHI8WDn_XF1nL0ZMZJw9OQoC5AK2YeVSCBiirB-1VgHeeDBmGiZQgzNL6KTXIGxE3Opo0tAOJ/pub?start=false&loop=false&delayms=60000) |
 
 # 2024 - 2025 School Year Presentations
 
