@@ -3,9 +3,21 @@
 Repository for artifacts for helping the CS Club (formerly Cyber Security Club),
 now Computer Science Club at Westshore Jr/Sr High School in Melbourne, FL.
 
-Current CTF page:  [Wildcat CTF](https://ctf.mwales.net)
+For 2025-2026, we have moved our challenges to [pwn.college](https://pwn.college/).
+Pwn.college is an educational platform developed and used by Arizona State
+University for several Computer Science undergraduate and graduate courses.
 
-New players, please read [CTF Player Guide](https://docs.google.com/presentation/d/1ox3celA71AxI8DO3MZhVbPA8yQwh9y9cItQmRyDjUbI/pub?start=false&loop=false&delayms=15000)
+You (anyone) can join our
+[Westshore Jr/Sr High Dojo](https://pwn.college/dojo/westshore-cs-club~0b45ad3f/join/)
+by clicking that link AFTER making an account at pwn.college.
+
+The new pwn.college platform will host educational material that I develop,
+plus you can take advantage of the Dojo's ASU has created.
+
+Old CTF page for 2024-2025:  [Wildcat CTF](https://ctf.mwales.net)
+
+New players, please read (not updated yet for 2025 - 2026):
+[CTF Player Guide](https://docs.google.com/presentation/d/1ox3celA71AxI8DO3MZhVbPA8yQwh9y9cItQmRyDjUbI/pub?start=false&loop=false&delayms=15000)
 
 CTF Spoiler-free writeups at the same place.  Just use http:// instead of https, 
 and add :7000 to the end of the URL to get the writups.
