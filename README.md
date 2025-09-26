@@ -14,19 +14,14 @@ by clicking that link AFTER making an account at pwn.college.
 The new pwn.college platform will host educational material that I develop,
 plus you can take advantage of the Dojo's ASU has created.
 
-Old CTF page for 2024-2025:  [Wildcat CTF](https://ctf.mwales.net)
-
-New players, please read (not updated yet for 2025 - 2026):
-[CTF Player Guide](https://docs.google.com/presentation/d/1ox3celA71AxI8DO3MZhVbPA8yQwh9y9cItQmRyDjUbI/pub?start=false&loop=false&delayms=15000)
-
-CTF Spoiler-free writeups at the same place.  Just use http:// instead of https, 
-and add :7000 to the end of the URL to get the writups.
+New players, please read (updated for 2025!):
+[CTF Player Guide](https://docs.google.com/presentation/d/e/2PACX-1vRefFsWf-JhnZrwTt38oIbu-L1MUgeAPR2OUM4oJO5vDwafCw4sZRaQ1t_1DEOGQ9syhNb8ha9xmsrj/pub?start=false&loop=false&delayms=60000)
 
 Club presentations:  [Presentations](slides)
 
 # About this project / club #
 
-I've been mentoring this club for 3 years with a few different teachers from
+I've been mentoring this club for 4 years with a few different teachers from
 West Shore.  I work in the Cyber Security industry at a local company, and I've
 had other peers from my same company and other local companies help mentor
 from time to time.
