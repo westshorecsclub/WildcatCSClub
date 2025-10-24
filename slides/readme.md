@@ -8,6 +8,7 @@
 | Level 0x02 - Shell Filtering             | [PDF](Y25/Level_0x02-Shell_Filtering.pdf)         | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRiv61k4A1iCkOIIETMltQjBQLD0smcHVrhdZsRx9xs6HKqLOlPaC3K_43QDX0auH06rJFIj922i9M7/pub?start=false&loop=false&delayms=60000) |
 | Level 0x03 - Encoding                    | [PDF](Y25/Level_0x03-Encoding.pdf)                | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vQg10DAX9p5nNODIxcdwpY_jXZVigDXTOUvV8cSEQNZep2YSBiWxS2-pB1LTSJWOUB3oPzih4ntwm26/pub?start=false&loop=false&delayms=60000) |
 | Level 0x04 - Diffs and Patches           | [PDF](Y25/Level_0x04-Diffs_and_Patches.pdf)       | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vS11708RU64KcXXPmEWh4o83KA3hCeuitzpDiB2Ynq_HSupnf-AbGijXPwrsZ3JnJRYR37h899bAcpb/pub?start=false&loop=false&delayms=60000) |
+| Level 0x05 - Offensive Security          | [PDF](Y25/Level_0x05-Offensive_Security.pdf)      | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vQDhVOqfTJ6pDvc3QTFks_KtZalM0PcsUxaLOLPKsDuaT8Zg0CDZzhfmW1L-Wj7CMfz-YuVFIvIpYIf/pub?start=false&loop=false&delayms=60000) |
 
 # 2024 - 2025 School Year Presentations
 
