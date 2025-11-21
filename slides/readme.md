@@ -11,6 +11,7 @@
 | Level 0x05 - Offensive Security          | [PDF](Y25/Level_0x05-Offensive_Security.pdf)      | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vQDhVOqfTJ6pDvc3QTFks_KtZalM0PcsUxaLOLPKsDuaT8Zg0CDZzhfmW1L-Wj7CMfz-YuVFIvIpYIf/pub?start=false&loop=false&delayms=60000) |
 | Level 0x06 - Privilege Escalation        | [PDF](Y25/Level_0x06-Privilege_Escalation.pdf)    | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vSIp9O69t-ArTScWBlmNtjyQlWlzox6kzijxptoDuhuVoJpkBFc9bwSY26VA9JXB1BH9zaYU1aRXbDV/pub?start=false&loop=false&delayms=60000) |
 | Level 0x07 - Steganography               | [PDF](Y25/Level_0x07-Steganography.pdf)           | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRU_Dt9r96iqJUw1p4Nnh03HZ_SuKoP6CCwuXO0ZOXzD58CTvdnWeyTUUVDiwbZdoUHOWc1tUWo0edS/pub?start=false&loop=false&delayms=60000) |
+| Level 0x08 - Moar Steganography          | [PDF](Y25/Level_0x08-Moar-Steganography.pdf)      | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRHnQ5Quqjc7N8gbzJT_ZSZr0urbvzyzx1b80Fshlkj3Zus08qi8Syd4AgLNdQJCgTzw954zkn8YMCD/pub?start=false&loop=false&delayms=60000) |
 
 # 2024 - 2025 School Year Presentations
 
