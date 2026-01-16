@@ -13,6 +13,7 @@
 | Level 0x07 - Steganography               | [PDF](Y25/Level_0x07-Steganography.pdf)           | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRU_Dt9r96iqJUw1p4Nnh03HZ_SuKoP6CCwuXO0ZOXzD58CTvdnWeyTUUVDiwbZdoUHOWc1tUWo0edS/pub?start=false&loop=false&delayms=60000) |
 | Level 0x08 - Moar Steganography          | [PDF](Y25/Level_0x08-Moar-Steganography.pdf)      | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRHnQ5Quqjc7N8gbzJT_ZSZr0urbvzyzx1b80Fshlkj3Zus08qi8Syd4AgLNdQJCgTzw954zkn8YMCD/pub?start=false&loop=false&delayms=60000) |
 | Level 0x09 - Kernel Interfacing          | [PDF](Y25/Level_0x09-Kernel_Interfacing.pdf)      | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vS8RUKvcQ6WrJCxz2THDHvTC6-2Cjo7OUid7-4muATGJDUMb-tPMUwfxk0tqOoagkka-3ulzmpUUV69/pub?start=false&loop=false&delayms=60000) |
+| Level 0x0a - Binary Tricks               | [PDF](Y25/Level_0x0a-Binary_Tricks.pdf)           | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRFew8ecX5VPzNUOX4ceDRLqEdcrSj4cgjd8QfUGE7g5esk4XBw1RBsvMI9gCv6beoU6Y5jJl20wjCh/pub?start=false&loop=false&delayms=60000) |
 
 # 2024 - 2025 School Year Presentations
 
