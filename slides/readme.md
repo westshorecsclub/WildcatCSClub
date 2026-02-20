@@ -16,6 +16,7 @@
 | Level 0x0a - Binary Tricks               | [PDF](Y25/Level_0x0a-Binary_Tricks.pdf)           | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRFew8ecX5VPzNUOX4ceDRLqEdcrSj4cgjd8QfUGE7g5esk4XBw1RBsvMI9gCv6beoU6Y5jJl20wjCh/pub?start=false&loop=false&delayms=60000) |
 | Level 0x0b - inetd                       | [PDF](Y25/Level_0x0b-inetd.pdf)                   | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRLxA4JWMOof292lCps4xSZ2DZiHoZPTJvEBab4-lDrxWIr7YHSPfywSwmY0iYKrVlQPH8nQb1ykJ2D/pub?start=false&loop=false&delayms=60000) |
 | Level 0x0c - Code Quest Academy          | [PDF](Y25/Level_0x0c-Code_Quest.pdf)              | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vTsYqHxg7TeJ9YWGSSFjAdHedykJTl_EARlzpsP9-leGD9si9AGWaMSFP16KXIAXtT8ZX56GrjEJJKf/pub?start=false&loop=false&delayms=60000) |
+| Level 0x0e - Code Quest Prep             | [PDF](Y25/Level_0x0e-Code_Quest_Prep.pdf)         | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vTahiz1EFVYoooISdoHy9x0FvMXynZ3ye4ulcGtgzPC-yQpF1J89ykw6DSQuXLiPZcNZFd1RPC14DOk/pub?start=false&loop=false&delayms=60000) |
 | Level 0x0d - Engineering Degrees         | [PDF](Y25/Level_0x0d-Engineering_Degrees.pdf)     | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vQct24_pSqrKOXiNPnJ2K0UOTxf1otZASr8DAyEriYUyc4qnCXX2jLPl5r0hs84dv6IW3SWS9qB43aq/pub?start=false&loop=false&delayms=60000) |
 
 # 2024 - 2025 School Year Presentations
