@@ -18,6 +18,7 @@
 | Level 0x0c - Code Quest Academy          | [PDF](Y25/Level_0x0c-Code_Quest.pdf)              | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vTsYqHxg7TeJ9YWGSSFjAdHedykJTl_EARlzpsP9-leGD9si9AGWaMSFP16KXIAXtT8ZX56GrjEJJKf/pub?start=false&loop=false&delayms=60000) |
 | Level 0x0e - Code Quest Prep             | [PDF](Y25/Level_0x0e-Code_Quest_Prep.pdf)         | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vTahiz1EFVYoooISdoHy9x0FvMXynZ3ye4ulcGtgzPC-yQpF1J89ykw6DSQuXLiPZcNZFd1RPC14DOk/pub?start=false&loop=false&delayms=60000) |
 | Level 0x0d - Engineering Degrees         | [PDF](Y25/Level_0x0d-Engineering_Degrees.pdf)     | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vQct24_pSqrKOXiNPnJ2K0UOTxf1otZASr8DAyEriYUyc4qnCXX2jLPl5r0hs84dv6IW3SWS9qB43aq/pub?start=false&loop=false&delayms=60000) |
+| Level 0x0f - Reverse Con                 | [PDF](Y25/Level_0x0f-Reverse_Con.pdf)             | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRm2G2qeLg1YIWa3HOYzUidAPVvZa7HYdznKSUS6gXdtQ_RexA31JJfkTETEAOexm3dd1zW8c9vMqAA/pub?start=false&loop=false&delayms=60000) |
 
 # 2024 - 2025 School Year Presentations
 
