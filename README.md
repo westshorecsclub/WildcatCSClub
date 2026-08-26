@@ -83,6 +83,8 @@ West Shore students the past few years have accomplished the following:
 * [2024 Cyber Quest 3rd Place](https://web.archive.org/web/20240620191945/https://www.lockheedmartin.com/en-us/who-we-are/communities/cyber-quest/cyber-quest-winners.html)
 * 2025 Code Quest 3rd Place Novice, 5th Advanced, 9th Advanced, 11th Advanced (over 100 teams!)
 * 2025 Cyber Quest 2nd Place
+* 2026 Code Quest 2nd Place
+* 2026 Cyber Quest 2nd Place
 * $80,000 scholarship for winning CTF at Florida Tech
 * Scholarship for [reporting a vulnerability to Focus School Software](https://westshoreroar.com/top-stories/seventh-grader-discovers-vulnerability-in-school-grading-software/)
 
@@ -94,6 +96,7 @@ West Shore students the past few years have accomplished the following:
 * [2023 Cyber Quest Pictures](https://lockheedmartin.smugmug.com/CYBERQUEST/CYBERQUEST-2023/Orlando-FL/)
 * [2024 Code Quest Pictures](https://lockheedmartin.smugmug.com/Code-Quest/2024-Code-Quest/FL-Orlando)
 * [2024 Cyber Quest Pictures](https://lockheedmartin.smugmug.com/CYBERQUEST/Cyber-Quest-2024/FL-Orlando)
+* [2026 Code Quest Pictures](pictures/2026_code_quest/readme.md)
 
 ## Other possible in-person competition option for 2024-2025
 
