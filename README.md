@@ -105,6 +105,13 @@ West Shore students the past few years have accomplished the following:
 
 * [TJ CTF](https://tjctf.org) - Thomas Jefferson High School for Sciene and Technology (#5 high school in the country per Forbes)
 
+# Current pwn.college Dojos
+
+Sign up for a pwn.college account first, and then sign in, then click these links to join these private dojos:
+
+* [Westshore Jr/Sr High Cybersecurity Dojo](https://pwn.college/dojo/westshore-cs-club~0b45ad3f/join/)
+* [Learning Python (High School)](https://pwn.college/dojo/westshore-learning-python~5a860808/join/)
+
 # Sponsors and Support
 
 Generous support was given to the club from the following organizations.  The kids didn't have to pay for anything out
