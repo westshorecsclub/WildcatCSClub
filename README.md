@@ -21,7 +21,7 @@ Club presentations:  [Presentations](slides)
 
 # About this project / club #
 
-I've been mentoring this club for 4 years with a few different teachers from
+I've been mentoring this club for 5+ years with a few different teachers from
 West Shore.  I work in the Cyber Security industry at a local company, and I've
 had other peers from my same company and other local companies help mentor
 from time to time.
@@ -45,9 +45,6 @@ I run (keep reading if you are wondering what a CTF is).
 * Reverse engineering
 * Software exploitation / hacking
 * Physical security / lock-picking
-* Electronics
-* Digital circuits
-* Embedded programming (Arduino, Raspberry Pi)
 
 For some topics like software exploitation or lock-picking, we go over the
 ethics, laws, responsibilities for using these skills.

@@ -1,3 +1,9 @@
+# 2026 - 2027 School Year Presentations
+
+|  Subject                                 |    PDF                                            | Google Slides Web Link                                                                                                                                                                    |
+|------------------------------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Level 0x00 - Welcome                     | [PDF](Y26/Level_0x00-Welcome.pdf)                 | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRHmhPFApBmFklHaHpKr92JgbEubLxtCeWT8lA9H-VzsbLAYy3LN1RKJS_kuZVCAGO9a54g4vb5gD1p/pub?start=false&loop=false&delayms=60000) |
+
 # 2025 - 2026 School Year Presentations
 
 |  Subject                                 |    PDF                                            | Google Slides Web Link                                                                                                                                                                    |
