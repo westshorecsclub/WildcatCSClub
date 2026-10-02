@@ -3,6 +3,7 @@
 |  Subject                                 |    PDF                                            | Google Slides Web Link                                                                                                                                                                    |
 |------------------------------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Level 0x00 - Welcome                     | [PDF](Y26/Level_0x00-Welcome.pdf)                 | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRHmhPFApBmFklHaHpKr92JgbEubLxtCeWT8lA9H-VzsbLAYy3LN1RKJS_kuZVCAGO9a54g4vb5gD1p/pub?start=false&loop=false&delayms=60000) |
+| Level 0x01 - CTF Players Guide           | [PDF](Y26/Level_0x02-CTF_Guide.pdf)               | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vSQawu3Sz7SoRrnS0sQPFUWKpvxhkq0Bc9W4qotuN34vvDRzcSemlmmTZQhCJ0jSEQ1RVFoe3PJGubI/pub?start=false&loop=false&delayms=60000) |
 
 # 2025 - 2026 School Year Presentations
 
