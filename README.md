@@ -6,16 +6,23 @@ now Computer Science Club at Westshore Jr/Sr High School in Melbourne, FL.
 For 2025-2026, we have moved our challenges to [pwn.college](https://pwn.college/).
 Pwn.college is an educational platform developed and used by Arizona State
 University for several Computer Science undergraduate and graduate courses.
+All the material on pwn.college is free, no cost, and is open for anyone
+to use.
 
-You (anyone) can join our
-[Westshore Jr/Sr High Dojo](https://pwn.college/dojo/westshore-cs-club~0b45ad3f/join/)
-by clicking that link AFTER making an account at pwn.college.
+In addition to all the material that ASU develops for it's Computer Science
+students, pwn.college is open for others to make community dojos or their own
+private dojos.  We have created some pwn.college dojos aimed at high school
+level students.
 
-The new pwn.college platform will host educational material that I develop,
-plus you can take advantage of the Dojo's ASU has created.
+New players, please read (updated for 2026!):
+[pwn.college CTF Player Guide](https://docs.google.com/presentation/d/e/2PACX-1vSQawu3Sz7SoRrnS0sQPFUWKpvxhkq0Bc9W4qotuN34vvDRzcSemlmmTZQhCJ0jSEQ1RVFoe3PJGubI/pub?start=false&loop=false&delayms=60000)
 
-New players, please read (updated for 2025!):
-[CTF Player Guide](https://docs.google.com/presentation/d/e/2PACX-1vRefFsWf-JhnZrwTt38oIbu-L1MUgeAPR2OUM4oJO5vDwafCw4sZRaQ1t_1DEOGQ9syhNb8ha9xmsrj/pub?start=false&loop=false&delayms=60000)
+After making a pwn college account, you can join the 2 Dojos created for this
+club.  They are more aimed at teaching skills that high school and early
+CS students would need.
+
+* Join [Learning Python (High School)](https://pwn.college/dojo/westshore-learning-python~5a860808/join/) Dojo
+* Join [Westshore Jr/Sr High CS Club](https://pwn.college/dojo/westshore-cs-club~0b45ad3f/join/) Dojo
 
 Club presentations:  [Presentations](slides)
 
@@ -105,7 +112,20 @@ West Shore students the past few years have accomplished the following:
 
 * [TJ CTF](https://tjctf.org) - Thomas Jefferson High School for Sciene and Technology (#5 high school in the country per Forbes)
 
-# Current pwn.college Dojos
+# Other Free CS Curriculum on the Internet
+
+* MIT Missing CS Semester
+   * There is a bunch of fundamental computer skills / tools that incoming CS
+     students and engineers are just expected to know and understand (but many
+     don't and causes them to struggle)
+   * [Course Website](https://missing.csail.mit.edu/)
+   * [Youtube Lecture Playlist](https://www.youtube.com/playlist?list=PLyzOVJj3bHQunmnnTXrNbZnBaCA-ieK4L)
+* Stanford CS221 - Artificial Intelligence: Principles and Techniques
+  * [Youtube Lecture Playlist](https://www.youtube.com/playlist?list=PLoROMvodv4rOca_Ovz1DvdtWuz8BfSWL2)
+* Stanford CS329A - Self Improving AI Agents - Chowdhery and Mirhoseini
+  * Professors are Google and Anthropic AI researchers
+  * [Syllabus](https://cs329a.stanford.edu/)
+  * [Youtube Lecture Playlist](https://www.youtube.com/playlist?list=PLangBM27OtEA)
 
 Sign up for a pwn.college account first, and then sign in, then click these links to join these private dojos:
 
