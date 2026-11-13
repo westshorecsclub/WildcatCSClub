@@ -6,6 +6,7 @@
 | Level 0x01 - CTF Players Guide           | [PDF](Y26/Level_0x01-CTF_Guide.pdf)               | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vSQawu3Sz7SoRrnS0sQPFUWKpvxhkq0Bc9W4qotuN34vvDRzcSemlmmTZQhCJ0jSEQ1RVFoe3PJGubI/pub?start=false&loop=false&delayms=60000) |
 | Level 0x02 - Computer Networks           | [PDF](Y26/Level_0x02-Computer_Networks.pdf)       | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRc0U06Bvj5xtL2DX3t8_uapGqtCc0M2SwYIYnR_Nc2UxTuZdO0Gif30wzExT4mtMnRsBfJFSGYMsbG/pub?start=false&loop=false&delayms=60000) |
 | Level 0x03 - HTTP and Web Protocols      | [PDF](Y26/Level_0x03-HTTP_and_Web.pdf)            | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vQevJeT5fhLpl5JkQVmdgM5IJpViKTFYIY75ZbFm_dFt2Ax8G5XPudWne7HY9ir6ScmtnIDbTq8qD5V/pub?start=false&loop=false&delayms=60000) |
+| Level 0x04 - Git and Markdown            | [PDF](Y26/Level_0x04-Git_and_Markdown.pdf)        | [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vQDKANG290_lakwr5pOuB3ATUohxxPBI2E61-7pLe_1UDoWMYliJD-f2vXIWmOoCH3eaxKcjyv3zKqk/pub?start=false&loop=false&delayms=60000) |
 
 # 2025 - 2026 School Year Presentations
 
